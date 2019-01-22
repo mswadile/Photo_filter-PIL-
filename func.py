@@ -100,4 +100,3 @@ def brightness(value):
             blue=pixel[2]
             pixels[i,j]=(int(red*value),int(green*value),int(blue*value))
     new.save("output.jpg",'png')
-brightness(1.3)
